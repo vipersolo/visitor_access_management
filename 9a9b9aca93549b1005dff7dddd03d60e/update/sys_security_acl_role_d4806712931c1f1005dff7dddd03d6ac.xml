@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-04 11:46:20</sys_created_on>
+        <sys_id>d4806712931c1f1005dff7dddd03d6ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2250616_visito_0_visitor_access_request_record.x_2250616_visito_0.visitor_access_request_record_user</sys_name>
+        <sys_package display_value="Visitor Access Management" source="x_2250616_visito_0">9a9b9aca93549b1005dff7dddd03d60e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor Access Management">9a9b9aca93549b1005dff7dddd03d60e</sys_scope>
+        <sys_security_acl display_value="x_2250616_visito_0_visitor_access_request_record">94806712931c1f1005dff7dddd03d6a5</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d4806712931c1f1005dff7dddd03d6ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-04 11:46:20</sys_updated_on>
+        <sys_user_role display_value="x_2250616_visito_0.visitor_access_request_record_user" name="x_2250616_visito_0.visitor_access_request_record_user">00802712931c1f1005dff7dddd03d6de</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

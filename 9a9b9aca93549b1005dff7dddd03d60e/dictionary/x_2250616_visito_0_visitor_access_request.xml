@@ -18,6 +18,7 @@
                 <element inactive_on_update="false" label="Branch Office" sequence="1" value="branch_office"/>
             </choice>
         </element>
+        <element label=" Company Name" max_length="40" name="company_name" type="string"/>
         <element label="Visitor Name" mandatory="true" max_length="40" name="visitor_name" type="string"/>
         <element label="Access Start Date" mandatory="true" max_length="40" name="access_start_date" type="glide_date"/>
         <element label="Visit Purpose" max_length="4000" name="string" type="string"/>

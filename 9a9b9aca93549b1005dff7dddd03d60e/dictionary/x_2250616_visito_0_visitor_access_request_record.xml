@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="0260e312931c1f1005dff7dddd03d603" label="Visitor Access Request Record" max_length="40" name="x_2250616_visito_0_visitor_access_request_record" type="collection">
+        <element label="Visitor Name" max_length="40" name="visitor_name" type="string"/>
+        <element label="Access Start Date" max_length="40" name="access_start_date" type="glide_date"/>
+        <element label="Host Employee" max_length="32" name="host_employee" reference="sys_user" type="reference"/>
+        <element label="Required Systems" max_length="4000" name="required_systems" type="string"/>
+        <element label="Visitor Email" max_length="40" name="visitor_email" type="string"/>
+        <element choice="3" label="Visitor Type" max_length="40" name="visitor_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Client" sequence="1" value="client"/>
+                <element inactive_on_update="false" label="Vendor" sequence="0" value="vendor"/>
+                <element inactive_on_update="false" label="Auditor" sequence="2" value="auditor"/>
+            </choice>
+        </element>
+        <element label="Access End Date" max_length="40" name="access_end_date" type="glide_date"/>
+        <index name="index">
+            <element name="host_employee"/>
+        </index>
+    </element>
+</database>
